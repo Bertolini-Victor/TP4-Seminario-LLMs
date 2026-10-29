@@ -1,6 +1,6 @@
 # Sistema Backend de Triaje y Resolución Inteligente con RAG (v4)
 
-**Trabajo Práctico 4 – Seminario de LLMs: Generación Aumentada por Recuperación (RAG) para Soporte Automatizado**
+**Trabajo Práctico 4 – Seminario: Introducción a los LLMs y al desarrollo deaplicaciones asociadas - Generación Aumentada por Recuperación (RAG) para Soporte Automatizado**
 
 ---
 
