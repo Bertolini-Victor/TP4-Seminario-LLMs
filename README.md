@@ -6,7 +6,7 @@
 
 ## Descripción del Proyecto
 
-Este proyecto constituye la **versión 4 (v4)** del motor de triaje y resolución inteligente de reclamos de E-Commerce desarrollado en el [TP3](https://github.com/Bertolini-Victor/TP3-Seminario-LLMs). En esta evolución arquitectónica, el sistema **elimina las políticas corporativas fijas (hardcodeadas)** del prompt de resolución (`Prompt 2.md`) e incorpora un **pipeline RAG (Retrieval-Augmented Generation)** completo sobre el manual oficial [`politicas_ecommerce_integral.md`](./politicas_ecommerce_integral.md).
+Este proyecto constituye la **versión 2 (v2)** del motor de triaje y resolución inteligente de reclamos de E-Commerce desarrollado en el [TP3](https://github.com/Bertolini-Victor/TP3-Seminario-LLMs). En esta evolución arquitectónica, el sistema **elimina las políticas corporativas fijas (hardcodeadas)** del prompt de resolución (`Prompt 2.md`) e incorpora un **pipeline RAG (Retrieval-Augmented Generation)** completo sobre el manual oficial [`politicas_ecommerce_integral.md`](./politicas_ecommerce_integral.md).
 
 Ante cada consulta o reclamo de un cliente:
 1. Se recupera dinámicamente desde **ChromaDB** el conjunto Top-$K$ de cláusulas relevantes mediante similitud del coseno sobre embeddings densos multilingües (`sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2`).
